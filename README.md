@@ -2,7 +2,9 @@
 
 一个无需构建的静态作品集，展示三个项目的真实界面与交互实现：
 
-线上地址：`https://shuifaYuan.github.io/portfolio/`
+线上地址：[https://shuifaYuan.github.io/portfolio/](https://shuifaYuan.github.io/portfolio/)
+
+GitHub 仓库：[shuifaYuan/portfolio](https://github.com/shuifaYuan/portfolio)
 
 - 优选商城：Vue 3 + Express 全栈电商平台
 - 校园闲置：uni-app + Django 跨端校园交易平台

@@ -3,6 +3,7 @@ const { chromium } = require('playwright')
 
 const root = path.resolve(__dirname, '..')
 const artifacts = path.join(root, 'artifacts')
+const siteUrl = process.env.PORTFOLIO_URL || 'http://127.0.0.1:4173/'
 
 async function assertPage(page, label) {
   const errors = []
@@ -11,7 +12,7 @@ async function assertPage(page, label) {
   })
   page.on('pageerror', (error) => errors.push(error.message))
 
-  await page.goto('http://127.0.0.1:4173/', { waitUntil: 'networkidle' })
+  await page.goto(siteUrl, { waitUntil: 'networkidle' })
   await page.evaluate(() => document.fonts.ready)
   await page.evaluate(async () => {
     document.documentElement.style.scrollBehavior = 'auto'
