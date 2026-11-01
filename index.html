@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="袁水发的数字产品作品集，包含全栈电商平台、校园二手交易平台和 Unity 第一人称密室游戏。"
+    />
+    <meta name="theme-color" content="#f2f0e9" />
+    <meta property="og:title" content="袁水发 · 数字产品作品集" />
+    <meta
+      property="og:description"
+      content="从前端界面到后端接口，再到 Unity 交互，构建完整、可运行的数字产品。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/projects/store-home.png" />
+    <title>袁水发 · 数字产品作品集</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="返回首页">
+        <span class="brand-name">袁水发</span>
+        <span class="brand-role">PRODUCT ENGINEER</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="主导航">
+        <a class="nav-link" href="#work">作品</a>
+        <a class="nav-link" href="#capabilities">能力</a>
+        <a class="nav-link" href="#about">关于</a>
+      </nav>
+
+      <a class="header-github" href="https://github.com/shuifaYuan" target="_blank" rel="noreferrer">
+        <span>GitHub</span>
+        <svg aria-hidden="true" viewBox="0 0 24 24">
+          <path d="M15 3h6v6" />
+          <path d="M10 14 21 3" />
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+        </svg>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        aria-label="打开菜单"
+      >
+        <svg class="menu-icon" aria-hidden="true" viewBox="0 0 24 24">
+          <path d="M4 7h16M4 12h16M4 17h16" />
+        </svg>
+        <svg class="close-icon" aria-hidden="true" viewBox="0 0 24 24">
+          <path d="m6 6 12 12M18 6 6 18" />
+        </svg>
+      </button>
+    </header>
+
+    <nav class="mobile-menu" id="mobile-menu" aria-label="移动端导航">
+      <a href="#work"><span>01</span>作品</a>
+      <a href="#capabilities"><span>02</span>能力</a>
+      <a href="#about"><span>03</span>关于</a>
+      <a href="https://github.com/shuifaYuan" target="_blank" rel="noreferrer"><span>↗</span>GitHub</a>
+    </nav>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy reveal">
+          <p class="availability">
+            <span class="availability-dot" aria-hidden="true"></span>
+            OPEN TO WORK · 2026
+          </p>
+          <p class="hero-kicker">WEB / FULL-STACK / UNITY</p>
+          <h1 id="hero-title">
+            袁水发
+            <span>把想法做成<br />真正能用的产品。</span>
+          </h1>
+          <p class="hero-lead">
+            从前端界面到后端接口，再到 Unity 交互。关注完整产品体验，也处理每一个让系统真正跑起来的细节。
+          </p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#work">
+              查看作品
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M12 5v14M19 12l-7 7-7-7" />
+              </svg>
+            </a>
+            <a class="text-link" href="#about">
+              了解我的工作方式
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-stage reveal" aria-label="三个项目的界面预览">
+          <figure class="hero-shot hero-shot-store">
+            <img
+              src="assets/projects/store-home.png"
+              alt="优选商城首页界面"
+              fetchpriority="high"
+            />
+            <figcaption><span>01</span> WEB COMMERCE</figcaption>
+          </figure>
+          <figure class="hero-shot hero-shot-campus">
+            <img
+              src="assets/projects/campus-home.png"
+              alt="校园闲置交易平台首页界面"
+              fetchpriority="high"
+            />
+            <figcaption><span>02</span> MOBILE MARKET</figcaption>
+          </figure>
+          <figure class="hero-shot hero-shot-game">
+            <img
+              src="assets/projects/deep-signal-gameplay.png"
+              alt="深潜档案第一人称游戏画面"
+              fetchpriority="high"
+            />
+            <figcaption><span>03</span> UNITY EXPERIENCE</figcaption>
+          </figure>
+          <div class="stage-counter" aria-hidden="true">
+            <span>SELECTED</span>
+            <strong>03</strong>
+            <span>BUILDS</span>
+          </div>
+        </div>
+
+        <div class="hero-footer" aria-hidden="true">
+          <span>SCROLL TO EXPLORE</span>
+          <span class="hero-rule"></span>
+          <span>PORTFOLIO / 2026</span>
+        </div>
+      </section>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee-track">
+          <div class="marquee-group">
+            <span>VUE 3</span><i>✳</i><span>EXPRESS</span><i>✳</i><span>DJANGO</span><i>✳</i>
+            <span>UNI-APP</span><i>✳</i><span>UNITY</span><i>✳</i><span>INTERACTION DESIGN</span><i>✳</i>
+          </div>
+          <div class="marquee-group">
+            <span>VUE 3</span><i>✳</i><span>EXPRESS</span><i>✳</i><span>DJANGO</span><i>✳</i>
+            <span>UNI-APP</span><i>✳</i><span>UNITY</span><i>✳</i><span>INTERACTION DESIGN</span><i>✳</i>
+          </div>
+        </div>
+      </div>
+
+      <section class="work-index section-pad" id="work" aria-labelledby="work-title">
+        <div class="section-heading reveal">
+          <p class="section-label">01 / SELECTED BUILDS</p>
+          <h2 id="work-title">三个项目，<br />三种产品尺度。</h2>
+          <p>
+            从完整交易系统、跨端校园服务到第一人称沉浸体验。每个项目都从需求、视觉一直做到交互与工程实现。
+          </p>
+        </div>
+
+        <div class="work-list reveal">
+          <a class="work-row" href="#store">
+            <span class="work-number">01</span>
+            <strong>优选商城</strong>
+            <span>全栈电商交易平台</span>
+            <span class="work-stack">Vue 3 / Express</span>
+            <span class="work-arrow">
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </span>
+          </a>
+          <a class="work-row" href="#campus">
+            <span class="work-number">02</span>
+            <strong>校园闲置</strong>
+            <span>跨端校园二手交易平台</span>
+            <span class="work-stack">uni-app / Django</span>
+            <span class="work-arrow">
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </span>
+          </a>
+          <a class="work-row" href="#deep-signal">
+            <span class="work-number">03</span>
+            <strong>深潜档案</strong>
+            <span>第一人称密室逃脱游戏</span>
+            <span class="work-stack">Unity / C#</span>
+            <span class="work-arrow">
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </span>
+          </a>
+        </div>
+      </section>
+
+      <section class="project project-store section-pad" id="store" aria-labelledby="store-title">
+        <div class="project-heading reveal">
+          <div>
+            <p class="project-index">PROJECT 01</p>
+            <p class="project-type">WEB COMMERCE / FULL-STACK</p>
+          </div>
+          <h2 id="store-title">优选商城</h2>
+          <p class="project-summary">
+            一个覆盖商品浏览、购物车、订单、店铺经营与后台管理的电商系统。前端以清晰的信息层级组织交易流程，后端用统一 API 支撑多角色协作。
+          </p>
+        </div>
+
+        <div class="project-facts reveal">
+          <div>
+            <span>ROLE</span>
+            <strong>全栈开发 / UI 实现</strong>
+          </div>
+          <div>
+            <span>FRONTEND</span>
+            <strong>Vue 3 · Vite · Pinia</strong>
+          </div>
+          <div>
+            <span>BACKEND</span>
+            <strong>Express · SQL.js · JWT</strong>
+          </div>
+          <div>
+            <span>SCOPE</span>
+            <strong>用户 / 店铺 / 管理端</strong>
+          </div>
+        </div>
+
+        <button
+          class="project-visual store-visual reveal"
+          type="button"
+          data-lightbox
+          data-caption="优选商城 · 首页"
+          aria-label="放大查看优选商城首页"
+        >
+          <span class="browser-chrome" aria-hidden="true">
+            <i></i><i></i><i></i>
+            <span>localhost / store</span>
+          </span>
+          <img src="assets/projects/store-home.png" alt="优选商城首页完整界面" loading="lazy" />
+          <span class="visual-hint">
+            查看大图
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+            </svg>
+          </span>
+        </button>
+
+        <div class="feature-grid reveal">
+          <article>
+            <span>01</span>
+            <h3>完整交易链路</h3>
+            <p>从商品详情、购物车到确认订单和支付页面，串联起可连续使用的购买路径。</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>多角色工作台</h3>
+            <p>面向普通用户、店铺和管理员分别设计入口、权限与数据视图。</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>统一接口层</h3>
+            <p>使用 Axios 拦截器集中处理鉴权、异常状态和 API 数据转换。</p>
+          </article>
+        </div>
+
+        <div class="store-gallery reveal">
+          <figure>
+            <img src="assets/projects/store-product-1.jpg" alt="优选商城商品视觉之一" loading="lazy" />
+            <figcaption>PRODUCT / 01</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/projects/store-product-2.jpg" alt="优选商城商品视觉之二" loading="lazy" />
+            <figcaption>PRODUCT / 02</figcaption>
+          </figure>
+          <div class="metric-block">
+            <strong>20+</strong>
+            <span>核心页面与状态</span>
+            <strong>3</strong>
+            <span>角色权限层级</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="project project-campus section-pad" id="campus" aria-labelledby="campus-title">
+        <div class="campus-layout">
+          <div class="campus-copy reveal">
+            <p class="project-index">PROJECT 02</p>
+            <p class="project-type">CROSS-PLATFORM / CAMPUS SERVICE</p>
+            <h2 id="campus-title">校园闲置</h2>
+            <p class="project-summary">
+              面向校园场景的二手交易平台。基于 uni-app 同时服务微信小程序与 H5，后端使用 Django REST Framework 构建商品、聊天、订单和认证能力。
+            </p>
+            <div class="tag-list" aria-label="项目技术栈">
+              <span>uni-app</span><span>Vue</span><span>Django</span><span>DRF</span><span>JWT</span>
+            </div>
+            <div class="campus-notes">
+              <p><span>01</span>双列瀑布流组织校园闲置商品，适配高频浏览与移动操作。</p>
+              <p><span>02</span>围绕教材、毕业季、免费赠送等校园场景扩展交易分类。</p>
+              <p><span>03</span>商品、聊天、收藏与订单状态在同一个交易闭环中协作。</p>
+            </div>
+          </div>
+
+          <div class="phone-stage reveal">
+            <div class="phone-frame">
+              <div class="phone-speaker" aria-hidden="true"></div>
+              <button
+                type="button"
+                class="phone-screen"
+                data-lightbox
+                data-caption="校园闲置 · 商品流首页"
+                aria-label="放大查看校园闲置首页"
+              >
+                <img src="assets/projects/campus-home.png" alt="校园闲置移动端首页界面" loading="lazy" />
+              </button>
+            </div>
+            <span class="phone-caption">H5 / MINI PROGRAM</span>
+            <span class="campus-stamp" aria-hidden="true">CAMPUS<br />MARKET</span>
+          </div>
+        </div>
+
+        <div class="campus-metrics reveal">
+          <div><strong>2</strong><span>端同步体验</span></div>
+          <div><strong>1</strong><span>套统一 API</span></div>
+          <div><strong>4</strong><span>个核心业务域</span></div>
+          <div><strong>100%</strong><span>移动优先布局</span></div>
+        </div>
+      </section>
+
+      <section
+        class="project project-game"
+        id="deep-signal"
+        aria-labelledby="deep-signal-title"
+      >
+        <div class="game-hero">
+          <img
+            class="game-hero-image"
+            src="assets/projects/deep-signal-gameplay.png"
+            alt="深潜档案游戏中的实验室场景"
+            loading="lazy"
+          />
+          <div class="game-hero-overlay"></div>
+          <div class="game-copy reveal">
+            <p class="project-index">PROJECT 03</p>
+            <p class="project-type">UNITY / FIRST-PERSON EXPERIENCE</p>
+            <h2 id="deep-signal-title">深潜档案</h2>
+            <p class="game-title-en">DEEP SIGNAL</p>
+            <p class="project-summary">
+              一款 Unity 第一人称密室逃脱游戏。玩家需要在八分钟内搜寻保险丝、解读线索、恢复供电，最终输入门禁代码逃离实验室。
+            </p>
+            <div class="game-tags">
+              <span>Unity 2022.3</span><span>C#</span><span>First Person</span><span>UI / Audio</span>
+            </div>
+          </div>
+          <div class="game-status" aria-label="项目数据">
+            <div><span>08:00</span><small>OXYGEN LIMIT</small></div>
+            <div><span>3</span><small>PUZZLE STEPS</small></div>
+            <div><span>6</span><small>GAME STATES</small></div>
+          </div>
+        </div>
+
+        <div class="game-details section-pad">
+          <div class="game-detail-copy reveal">
+            <p class="section-label">SYSTEMS & INTERACTION</p>
+            <h3>让氛围、操作和反馈<br />成为同一套体验。</h3>
+            <p>
+              项目包含第一人称移动、射线交互、保险丝拾取、线索面板、门禁输入、计时与暂停状态。场景、UI、光和音效均由运行时引导器构建。
+            </p>
+            <div class="game-feature-list">
+              <span>状态管理</span>
+              <span>玩家交互</span>
+              <span>谜题流程</span>
+              <span>程序化音效</span>
+              <span>完整结算</span>
+            </div>
+          </div>
+
+          <div class="game-gallery reveal">
+            <button
+              type="button"
+              data-lightbox
+              data-caption="深潜档案 · 主菜单"
+              aria-label="放大查看深潜档案主菜单"
+            >
+              <img src="assets/projects/deep-signal-menu.png" alt="深潜档案游戏主菜单" loading="lazy" />
+              <span>MAIN MENU</span>
+            </button>
+            <button
+              type="button"
+              data-lightbox
+              data-caption="深潜档案 · 线索界面"
+              aria-label="放大查看深潜档案线索界面"
+            >
+              <img src="assets/projects/deep-signal-clue.png" alt="深潜档案游戏线索界面" loading="lazy" />
+              <span>CLUE SYSTEM</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="capabilities section-pad" id="capabilities" aria-labelledby="capabilities-title">
+        <div class="section-heading capabilities-heading reveal">
+          <p class="section-label">02 / WHAT I DO</p>
+          <h2 id="capabilities-title">从界面到系统，<br />把产品做完整。</h2>
+          <p>既能进入具体页面处理视觉与交互，也能退到系统层面梳理数据、接口和状态。</p>
+        </div>
+
+        <div class="capability-grid reveal">
+          <article>
+            <span class="capability-icon">
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <rect width="18" height="12" x="3" y="4" rx="2" />
+                <path d="M8 20h8M12 16v4" />
+              </svg>
+            </span>
+            <h3>前端体验</h3>
+            <p>Vue 3、Vite、uni-app。将信息层级、响应式布局和交互状态整理成清晰可用的界面。</p>
+            <span class="capability-number">01</span>
+          </article>
+          <article>
+            <span class="capability-icon">
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="m16 18 6-6-6-6M8 6l-6 6 6 6" />
+              </svg>
+            </span>
+            <h3>全栈开发</h3>
+            <p>Express、Django、REST API、JWT。让页面动作、业务规则和数据存储形成完整链路。</p>
+            <span class="capability-number">02</span>
+          </article>
+          <article>
+            <span class="capability-icon">
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M6 12h4M10 8v8M14 12h4M18 8v8" />
+                <rect width="20" height="14" x="2" y="5" rx="4" />
+              </svg>
+            </span>
+            <h3>Unity 交互</h3>
+            <p>第一人称控制、射线检测、游戏状态、界面反馈与程序化音效，构成可玩的实时体验。</p>
+            <span class="capability-number">03</span>
+          </article>
+          <article>
+            <span class="capability-icon">
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M12 3v18M3 12h18" />
+                <circle cx="12" cy="12" r="9" />
+              </svg>
+            </span>
+            <h3>产品落地</h3>
+            <p>从需求拆解、页面状态、接口协作到构建验证，保持项目在真实运行环境中的完整性。</p>
+            <span class="capability-number">04</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="about section-pad" id="about" aria-labelledby="about-title">
+        <div class="about-monogram reveal" aria-hidden="true">YSF</div>
+        <div class="about-copy reveal">
+          <p class="section-label">03 / ABOUT</p>
+          <h2 id="about-title">喜欢看见想法<br />真正被使用。</h2>
+          <p>
+            我是袁水发，关注 Web 全栈与实时交互开发。我的项目跨越电商、校园交易和 Unity 游戏，但共同点是用清晰的工程结构，把产品从概念推进到可运行状态。
+          </p>
+          <p>
+            我做页面，也读接口；调动画，也排状态；重体验，也在意边界条件。作品集会持续补充新的项目与技术实践。
+          </p>
+        </div>
+        <div class="about-facts reveal">
+          <div>
+            <span>FOCUS</span>
+            <strong>Web / Full-stack / Unity</strong>
+          </div>
+          <div>
+            <span>BASED IN</span>
+            <strong>China · Open to remote</strong>
+          </div>
+          <div>
+            <span>STATUS</span>
+            <strong><i aria-hidden="true"></i> Available for opportunities</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" aria-labelledby="contact-title">
+        <div class="contact-inner reveal">
+          <p class="section-label">NEXT / LET'S BUILD</p>
+          <h2 id="contact-title">有合适的项目或机会？<br />我们聊聊。</h2>
+          <a class="contact-link" href="https://github.com/shuifaYuan" target="_blank" rel="noreferrer">
+            <span>在 GitHub 找到我</span>
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M7 17 17 7M7 7h10v10" />
+            </svg>
+          </a>
+        </div>
+        <footer class="site-footer">
+          <span>© <span id="current-year">2026</span> 袁水发</span>
+          <span>DESIGNED & BUILT WITH ATTENTION</span>
+          <a href="#top">回到顶部 ↑</a>
+        </footer>
+      </section>
+    </main>
+
+    <dialog class="lightbox" id="lightbox">
+      <button class="lightbox-close" type="button" aria-label="关闭大图">
+        <svg aria-hidden="true" viewBox="0 0 24 24">
+          <path d="m6 6 12 12M18 6 6 18" />
+        </svg>
+      </button>
+      <figure>
+        <img id="lightbox-image" src="" alt="" />
+        <figcaption id="lightbox-caption"></figcaption>
+      </figure>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
